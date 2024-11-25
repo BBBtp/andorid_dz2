@@ -50,7 +50,10 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.retrofit)
+    implementation(libs.androidx.material)
     implementation(libs.converter.gson)
     implementation(libs.org.jetbrains.kotlinx.kotlinx.coroutines.android)
     implementation(libs.coil.compose)
@@ -64,6 +67,8 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.storage)
     implementation(libs.androidx.ui.test.android)
+    implementation(libs.androidx.fragment.ktx)
+    implementation(libs.androidx.appcompat)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

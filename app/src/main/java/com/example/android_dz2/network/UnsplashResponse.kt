@@ -1,7 +1,5 @@
 package com.example.android_dz2.network
 
-import androidx.compose.ui.text.font.FontWeight
-
 data class UnsplashPhoto(
     val id: String,
     val width: Int,

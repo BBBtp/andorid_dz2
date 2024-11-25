@@ -4,7 +4,6 @@ import retrofit2.http.GET
 import retrofit2.http.Headers
 import retrofit2.http.Query
 
-
 interface UnsplashApi {
     @Headers("Authorization: Client-ID ls5NgeJvHJKibvn4wrUGIJBMXHPkG_XEG4odh2Ce9qA")
     @GET("photos/")
